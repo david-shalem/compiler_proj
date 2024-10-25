@@ -1,0 +1,28 @@
+#build files
+build/*
+
+# cmake auto-generated files / folders
+Makefile
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/*
+
+# flex + bison auto-generated files
+src/location.hh
+src/Lexer.cpp
+src/Parser.cpp
+inc/Parser.h
+
+# executable
+compi
+
+# testing
+Testing/*
+CTestTestfile.cmake
+DartConfiguration.tcl
+output.mips
+program.sas
+*.s
+
+#vscode
+.vscode/
